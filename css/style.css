@@ -263,10 +263,16 @@ img {
     border: 2px solid #fff;
     border-radius: 8px;
     transition: .3s ease border, .3s ease background-color, .3s ease opacity;
+    
 }
 
 .registration-btn:hover{
     background-color: #DE2E54;
+    border-color: transparent
+}
+
+div a{
+    outline-style: dotted;
 }
 
 /* footer */
