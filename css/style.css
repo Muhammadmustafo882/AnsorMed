@@ -64,6 +64,10 @@ body{
     margin-bottom: 0;
 }
 
+.logo-text:hover{
+    color: #DE2E54;
+}
+
 .navbar-list{
     display: flex;
 }
@@ -90,6 +94,10 @@ ul li{
     transition-property: color, opacity;
 }
 
+.navbar-list-link:hover{
+    color: #DE2E54;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -104,6 +112,12 @@ ul li{
     padding: 12px 24px;
     border-radius: 8px;
     transition: .3s ease color, .3s ease background-color, .3s ease opacity;
+
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #DE2E54;
 }
 
 .hero{
@@ -121,13 +135,12 @@ ul li{
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
+    padding-left: 20px; 
     padding-right: 20px;
 }
 
 .hero-content{
-    padding: 120px;
-    padding-bottom: 120px;
+    margin-top: 100px;
     width: 500px;
 }
 
@@ -252,6 +265,10 @@ img {
     transition: .3s ease border, .3s ease background-color, .3s ease opacity;
 }
 
+.registration-btn:hover{
+    background-color: #DE2E54;
+}
+
 /* footer */
 .footer{
     background-color: #222;
@@ -286,6 +303,10 @@ img {
     transition: .3s ease color;
 }
 
+.footer-logo-text:hover{
+    color: #DE2E54;
+}
+
 .footer-navbar-list{
     display: flex;
     align-items: center;
@@ -309,4 +330,8 @@ ul{
     font-size: 14px;
     line-height: 21px;
     transition: .3s ease color, .3s ease opacity;
+}
+
+.footer-navbar-link:hover{
+    color: #DE2E54;
 }
