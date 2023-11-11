@@ -66,6 +66,11 @@ body{
 
 .logo-text:hover{
     color: #DE2E54;
+    opacity: 0.6;
+}
+
+.logo-text:active{
+    opacity: 0.8;
 }
 
 .navbar-list{
@@ -96,6 +101,11 @@ ul li{
 
 .navbar-list-link:hover{
     color: #DE2E54;
+    opacity: 0.6;
+}
+
+.navbar-list-link:active{
+    opacity: 0.8;
 }
 
 .btn {
@@ -112,12 +122,16 @@ ul li{
     padding: 12px 24px;
     border-radius: 8px;
     transition: .3s ease color, .3s ease background-color, .3s ease opacity;
-
 }
 
 .btn:hover{
     background-color: #fff;
     color: #DE2E54;
+    opacity: 0.6;
+}
+
+.btn:active{
+    opacity: 0.8;
 }
 
 .hero{
@@ -201,7 +215,6 @@ ul{
 }
 
 .feature-item-img {
-    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
     border-radius: 24px;
     margin-right: 64px;
 }
@@ -268,11 +281,12 @@ img {
 
 .registration-btn:hover{
     background-color: #DE2E54;
+    opacity: 0.6;
     border-color: transparent
 }
 
-div a{
-    outline-style: dotted;
+.registration-btn:active{
+    opacity: 0.8;
 }
 
 /* footer */
@@ -311,6 +325,11 @@ div a{
 
 .footer-logo-text:hover{
     color: #DE2E54;
+    opacity: 0.6;
+}
+
+.footer-logo-text:active{
+    opacity: 0.8;
 }
 
 .footer-navbar-list{
@@ -340,4 +359,9 @@ ul{
 
 .footer-navbar-link:hover{
     color: #DE2E54;
+    opacity: 0.6;
+}
+
+.footer-navbar-link:active{
+    opacity: 0.8;
 }
