@@ -101,6 +101,7 @@ ul li{
     transition-timing-function: ease, ease;
     transition-delay: 0s, 0s;
     transition-property: color, opacity;
+    letter-spacing: 2px;
 }
 
 .navbar-list-link:hover{
